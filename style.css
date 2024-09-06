@@ -1,0 +1,321 @@
+:root {
+    --Light-Green: #20c063;
+    --Green: rgb(58, 142, 82);
+    --Light-Gray: #e8e9ea;
+    --Gray: #909090;
+    --Dark-Text: #3b4144;
+}
+
+* {
+    color: var(--Dark-Text);
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+/********************************Header********************************/
+
+header {
+    background-color: var(--Light-Green);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#logo {
+    max-width: 90px;
+    padding-right: 1rem;
+}
+
+#logo-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-nav {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+nav {
+    align-content: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.header-nav a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+
+#j {
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: .3rem .55rem;
+    margin-right: 0.2rem;
+}
+
+/********************************Main********************************/
+
+#search-info {
+    margin: 0 0 0.7rem 0.7rem;
+}
+
+#search-info p:nth-child(1) {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+#search-info p:nth-child(2){
+    font-size: 0.8rem;
+}
+
+/*****Real Estate Card*****/
+
+#real-estate-cards {
+    background-color: rgb(227, 228, 230);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+article {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+ul {
+    background-color: white;
+    list-style: none;
+}
+
+.house-info {
+    padding: 0.5rem;
+}
+
+.house-info>li {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.house-info li:nth-child(3) p,
+.house-info li:nth-child(4) p{
+    color: var(--Gray);
+}
+
+.house-image {
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 100%;
+}
+
+/*****House Images*****/
+
+#house-1 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg");
+}
+
+#house-2 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg");
+}
+
+#house-3 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg");
+}
+
+#house-4 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg");
+}
+
+#house-5 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg");
+}
+
+#house-6 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg");
+}
+
+#house-7 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg");
+}
+
+#house-8 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg");
+}
+
+#house-9 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg");
+}
+
+#house-10 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg");
+}
+
+#house-11 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg");
+}
+
+#house-12 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg");
+}
+
+.img-tag{
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    opacity: 90%;
+    padding: 0.2rem;
+    z-index: 2;
+}
+
+.new {
+    background-color: var(--Light-Green);
+}
+
+#sale {
+    background-color: var(--Gray);
+}
+
+.house-price {
+    display: flex;
+    font-weight: 700;
+}
+
+.house-price p {
+    font-size: 1rem;
+}
+
+.arrow {
+    padding-left: 0.3rem;
+    width: 0.8rem;
+}
+
+.room {
+    display: flex;
+    padding: 0;
+}
+
+.room>li {
+    padding-right: 0.4rem;
+}
+
+.room-icon {
+    width: 0.9rem;
+}
+
+.house-specs {
+    display: flex;
+    padding-left: 0;
+}
+
+/*****Search Tags*****/
+
+#search-tags {
+    font-size: 0.8rem;
+    line-height: 1.7rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#search-tags p{
+    color: var(--Gray);
+}
+
+.search-parameters {
+    display: flex;
+    justify-content: center;
+}
+
+.search-parameters li {
+    padding-right: 1rem;
+}
+
+.search-parameters li a {
+    text-decoration: none;
+}
+
+.search-parameters:first-of-type li a {
+    color: var(--Green);
+}
+
+.search-parameters:last-of-type li:not(:last-child) a {
+    color: var(--Green);
+}
+
+.search-parameters:last-of-type li:last-child a {
+    color: var(--Dark-Text);
+}
+
+/*****Real Estate Insights*****/
+
+#real-estate-insights {
+    padding: 2rem 2rem 0 2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+#insights-paragraph {
+    line-height: 1.3rem;
+    font-size: 0.85rem;
+    padding: 1.5rem;
+}
+
+#insights-paragraph a {
+    color: var(--Green);
+    text-decoration: none;
+}
+
+/********************************Footer********************************/
+
+footer {
+    background-color: #383838;
+    line-height: 1.5rem;
+    padding: 1rem 0.5rem 0 0.5rem;
+}
+
+#footer-nav a {
+    color: var(--Gray);
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem 0 0.5rem;
+}
+
+#copyright {
+    color: var(--Gray);
+    font-size: 0.6rem;
+    padding-left: 0.4rem;
+}
+
+/********************Media Queries for Responsivess for Different Screen Sizes********************/
+
+/*For Small Desktops*/
+@media (min-width: 1025px) and (max-width: 1279px) {
+    #real-estate-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .house-image {
+        height: 15rem;
+    }
+}
+
+/*For Small Desktops*/
+@media (min-width: 1280px) {
+    #real-estate-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .house-image {
+        height: 10rem;
+    }
+}
