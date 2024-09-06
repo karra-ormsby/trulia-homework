@@ -1,7 +1,6 @@
 :root {
     --Light-Green: #20c063;
     --Green: rgb(58, 142, 82);
-    --Light-Gray: #e8e9ea;
     --Gray: #909090;
     --Dark-Text: #3b4144;
 }
@@ -247,6 +246,10 @@ ul {
     justify-content: center;
 }
 
+.search-parameters:last-child {
+    padding: 0;
+}
+
 .search-parameters li {
     padding-right: 0.5rem;
 }
@@ -314,6 +317,13 @@ footer {
 }
 
 /********************Media Queries for Responsivess for Different Screen Sizes********************/
+
+/*For Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .house-image {
+        height: 28rem;
+    }
+}
 
 /*For Small Desktops*/
 @media (min-width: 1025px) and (max-width: 1279px) {
