@@ -248,7 +248,7 @@ ul {
 }
 
 .search-parameters li {
-    padding-right: 1rem;
+    padding-right: 0.5rem;
 }
 
 .search-parameters li a {
@@ -296,6 +296,11 @@ footer {
     padding: 1rem 0.5rem 0 0.5rem;
 }
 
+#footer-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 #footer-nav a {
     color: var(--Gray);
     font-size: 0.85rem;
@@ -305,7 +310,7 @@ footer {
 #copyright {
     color: var(--Gray);
     font-size: 0.6rem;
-    padding-left: 0.4rem;
+    padding: 0.5rem 0 0 0.4rem;
 }
 
 /********************Media Queries for Responsivess for Different Screen Sizes********************/
@@ -328,6 +333,10 @@ footer {
     .house-image {
         height: 15rem;
     }
+
+    #footer-nav {
+        grid-template-columns: repeat(10, 1fr);
+    }
 }
 
 /*For Small Desktops*/
@@ -347,5 +356,9 @@ footer {
 
     .house-image {
         height: 10rem;
+    }
+
+    #footer-nav {
+        display: inline;
     }
 }
