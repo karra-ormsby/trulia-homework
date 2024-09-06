@@ -55,7 +55,7 @@ nav a{
     padding: 0 0.5rem;
 }
 
-.header-nav a:nth-child(4), .header-nav a:nth-child(4) {
+.header-nav a:nth-child(4) {
     display: none;
 }
 
@@ -323,6 +323,18 @@ footer {
 
 /*For Tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
+    .header-nav a:nth-child(4) {
+        display: block;
+    }
+
+    .header-nav a:nth-child(5) {
+        display: none;
+    }
+
+    .header-nav:nth-child(2) {
+        display: block;
+    }
+
     .house-image {
         height: 28rem;
     }
@@ -330,9 +342,12 @@ footer {
 
 /*For Small Desktops*/
 @media (min-width: 1025px) and (max-width: 1279px) {
-    .header-nav a:nth-child(4),
-    .header-nav a:nth-child(5) {
+    .header-nav a:nth-child(4) {
         display: block;
+    }
+
+    .header-nav a:nth-child(5) {
+        display: none;
     }
 
     .header-nav:nth-child(2) {
@@ -354,9 +369,12 @@ footer {
 
 /*For Small Desktops*/
 @media (min-width: 1280px) {
-    .header-nav a:nth-child(4),
-    .header-nav a:nth-child(5) {
+    .header-nav a:nth-child(4) {
         display: block;
+    }
+
+    .header-nav a:nth-child(5) {
+        display: none;
     }
 
     .header-nav:nth-child(2) {
