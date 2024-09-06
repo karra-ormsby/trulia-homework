@@ -68,7 +68,6 @@ nav a{
     border-radius: 50%;
     color: white;
     padding: .3rem .55rem;
-    margin-right: 0.2rem;
 }
 
 /********************************Main********************************/
@@ -239,6 +238,10 @@ ul {
 
 #search-tags p{
     color: var(--Gray);
+}
+
+#page-num li{
+    padding-right: 1.2rem;
 }
 
 .search-parameters {
