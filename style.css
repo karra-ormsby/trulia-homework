@@ -296,7 +296,7 @@ h5 {
 
 /*****Modal*****/
 
-#modal-container {
+/* #modal-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -318,8 +318,8 @@ h5 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*offset the element by half of its own width and height. Makes the center align with the center of the screen regardless of the device size*/
-    padding: 3rem;
+    transform: translate(-50%, -50%); offset the element by half of its own width and height. Makes the center align with the center of the screen regardless of the device size */
+    /* padding: 3rem;
     max-width: 90vw;
     max-height: 90vh;
 }
@@ -336,7 +336,7 @@ h5 {
     min-width: 20rem;
     min-height: 2.5rem;
     align-content: center;
-}
+} */
 
 
 
